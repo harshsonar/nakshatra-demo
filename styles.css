@@ -1,0 +1,256 @@
+
+body{
+    background-color: rgb(33,37,41);
+    
+    background: linear-gradient(rgba(52, 52, 52, 0.5), rgba(0, 0, 0, 0.5)), url("./images/joshua-woroniecki-TspYRqQrErc-unsplash.jpg");
+
+}
+
+
+.navbar-brand img{
+    height: 60px;
+    margin-top: 20px;
+}
+
+.navbar{
+    position: relative;
+}
+.navbar::after{
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.clgLogo{
+    margin-bottom: 0px;
+    padding: 3px;
+}
+.clgLogo img{
+    transform: translate(-100%);
+}
+
+
+.studCouncil{
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+.studCouncil img{
+    transform: translate(50%);
+}
+
+
+.nav-item   {
+    width: 100%;
+}
+
+
+
+
+.heading h4{
+    color: rgb(0, 166, 203);
+}
+
+.contactName{
+    margin-top: 20px;
+    
+    color: rgb(231, 176, 46);
+}
+
+.contactName1, .contactName2{
+    color: rgb(252, 202, 85);
+}
+
+.bodyHeading{
+    color: white;
+    margin-top: 60px;
+}
+
+.cardHeader{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.headerImg{
+    height: auto;
+}
+.headerImg img{
+    height: 100px;
+}
+h5{
+    font-size: 1.3vw;
+}
+h6{
+    font-size: 1.1vw;
+}
+
+
+.card{
+    /* width: 250px; */
+    box-shadow: 0px 0px 20px rgba(30, 141, 252, 0.2);
+    height: 15rem;
+    border: 0.8px solid rgba(154, 182, 251, 0.692);
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.050);
+    padding: 10px;
+    margin: 20px;
+    /* text-align: center; */
+}
+
+.card-title{
+    color: rgb(240, 248, 255);
+    font-size: 1.3rem;
+    
+}
+.list-group ul li a{
+    text-decoration: none;
+    color: rgb(197, 243, 254);
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.list-group ul li a:hover{
+    color: rgb(255, 188, 94);
+}
+
+
+.card1, .card2, .card3 {
+    margin-top: 0px;
+}
+
+.card4, .card5, .card6{
+    height: 10rem;
+    margin-top: 0px;
+}
+
+.card7{
+    height: 8rem;
+}
+
+ul{
+    list-style: none;
+}
+ul li::before{
+    color: white;
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .navbar-nav{
+        height: 5rem;
+    }
+    .navbar-brand img{
+        margin-top: 0px;
+    }
+
+    .bodyHeading{
+        margin-bottom: -5px;
+    }
+    .headerImg{
+        /* margin: 20px; */
+        margin-top: 40px;
+        margin-left: -15px;
+    }
+    .headerImg img{
+        margin-bottom: 20px;
+        height: 40px;
+    }
+
+    .heading h4{
+        font-size: 1rem;
+    }
+
+    .contactName{
+        font-size: 1rem;
+        margin-bottom: 7px;
+        margin-top: 40px;
+    }
+    .contactName1, .contactName2{
+        font-size: 0.8rem;
+        margin: 0px;
+    }
+
+    .card1{
+        height: 17rem;
+    }
+    .card2, .card3{
+        height: 10rem;
+    }
+    .list-group ul li a{
+        font-size: 1rem;
+    }
+
+    .card4, .card5, .card6{
+        height: 10rem;
+        
+    }
+    .card4{
+        margin-top: -25px;
+    }
+
+    .card7{
+        height: 10rem;
+        margin-top: -5px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width:550px){
+    .clgLogo img{
+        transform: translate(0%);
+    }
+    .studCouncil img{
+        transform: translate(0%);
+    }
+
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .headerImg img{
+        height: 60px;
+    }
+
+    .contactName{
+        font-size: 1.2rem;
+    }
+    .contactName1, .contactName2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 550px) {
+    
+    img{
+        display: block;
+        max-width: 100%;
+    }
+    .navbar-nav{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navbar-nav img{
+        height: auto;
+    }
+
+    .clgLogo img{
+        height: 40px;
+        margin-left: 40px;
+    }
+
+    .headerImg img{
+        margin-left: 60px;
+    }
+}
