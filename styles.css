@@ -168,6 +168,17 @@ ul li::before{
         margin-right: 0px;
     }
 
+    .clgLogo img{
+        height: 40px;
+        margin-left: 65px;
+    }
+    .nakshatra img{
+        transform: translateX(40%);
+    }
+    .studCouncil img{
+        transform: translateX(40%);
+    }
+
     .bodyHeading{
         margin-bottom: -5px;
     }
@@ -179,6 +190,7 @@ ul li::before{
     .headerImg img{
         margin-bottom: 20px;
         height: 40px;
+        margin-left: 50px;
     }
 
     .heading h4{
@@ -276,6 +288,7 @@ ul li::before{
         max-width: 100%;
     }
     .navbar-nav{
+        height: 4rem;
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -296,7 +309,7 @@ ul li::before{
 
     .clgLogo img{
         height: 40px;
-        margin-left: 70px;
+        margin-left: 65px;
     }
 
     .headerImg img{
