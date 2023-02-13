@@ -144,19 +144,28 @@ ul li::before{
 }
 
 
-@media (min-width:1000px) {
-    .card7{
-        left: 105%;
-    }
-}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
+
+
+    img{
+        display: block;
+        max-width: 100%;
+    } 
+
+    
 
     .navbar-nav{
         height: 5rem;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 20px;
     }
     .navbar-brand img{
         margin-top: 0px;
+        margin-right: 0px;
     }
 
     .bodyHeading{
@@ -208,9 +217,10 @@ ul li::before{
         height: 10rem;
         margin-top: -5px;
     }
+    
 }
 
-@media (max-width: 1000px) and (min-width:55px){
+@media (min-width:400px) and (max-width: 1000px)  {
     .clgLogo img{
         transform: translate(0%);
     }
@@ -224,7 +234,8 @@ ul li::before{
     }
 
     .headerImg img{
-        height: 60px;
+        height: 45px;
+        margin-left: 10px;
     }
 
     .contactName{
@@ -232,6 +243,29 @@ ul li::before{
     }
     .contactName1, .contactName2{
         font-size: 1rem;
+    }
+
+    .card1{
+        height: 15rem;
+    }
+    .card2, .card3{
+        height: 10rem;
+    }
+    .list-group ul li a{
+        font-size: 1rem;
+    }
+
+    .card4, .card5, .card6{
+        height: 10rem;
+        
+    }
+    .card4{
+        margin-top: -25px;
+    }
+
+    .card7{
+        height: 10rem;
+        margin-top: -5px;
     }
 }
 
@@ -250,15 +284,26 @@ ul li::before{
     }
 
     .navbar-nav img{
-        height: auto;
+        height: 35px;
+        margin-right: ;
+    }
+
+    .nakshatra img{
+        transform: translateX(30%);
+    }
+    .studCouncil img{
+        transform: translateX(10%);
     }
 
     .clgLogo img{
         height: 40px;
-        margin-left: 40px;
+        margin-left: 80px;
     }
 
     .headerImg img{
-        margin-left: 60px;
+        margin-left: 50px;
     }
+
+    
+
 }
