@@ -156,7 +156,7 @@ ul li::before{
     
 
     .navbar-nav{
-        height: 4rem;
+        height: 4.6rem;
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -288,7 +288,7 @@ ul li::before{
         max-width: 100%;
     }
     .navbar-nav{
-        height: 4rem;
+        height: 4.5rem;
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
