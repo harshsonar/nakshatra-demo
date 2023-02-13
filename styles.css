@@ -6,6 +6,9 @@ body{
 
 }
 
+.nakshatra a.disabled{
+    pointer-events: none;
+}
 
 .navbar-brand img{
     height: 60px;
@@ -17,7 +20,7 @@ body{
 }
 .navbar::after{
     content: "";
-    width: 50%;
+    width: 70%;
     height: 1px;
     background-color: white;
     position: absolute;
@@ -156,7 +159,7 @@ ul li::before{
     
 
     .navbar-nav{
-        height: 4.6rem;
+        height: 5.1rem;
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -176,7 +179,7 @@ ul li::before{
         transform: translateX(40%);
     }
     .studCouncil img{
-        transform: translateX(40%);
+        transform: translateX(35%);
     }
 
     .bodyHeading{
@@ -288,7 +291,7 @@ ul li::before{
         max-width: 100%;
     }
     .navbar-nav{
-        height: 4.5rem;
+        height: 5.3rem;
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -301,10 +304,10 @@ ul li::before{
     }
 
     .nakshatra img{
-        transform: translateX(40%);
+        transform: translateX(50%);
     }
     .studCouncil img{
-        transform: translateX(20%);
+        transform: translateX(15%);
     }
 
     .clgLogo img{
@@ -313,7 +316,7 @@ ul li::before{
     }
 
     .headerImg img{
-        margin-left: 50px;
+        margin-left: 70px;
     }
 
     
