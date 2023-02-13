@@ -156,7 +156,7 @@ ul li::before{
     
 
     .navbar-nav{
-        height: 5rem;
+        height: 4rem;
         max-width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -285,19 +285,18 @@ ul li::before{
 
     .navbar-nav img{
         height: 35px;
-        margin-right: ;
     }
 
     .nakshatra img{
-        transform: translateX(30%);
+        transform: translateX(40%);
     }
     .studCouncil img{
-        transform: translateX(10%);
+        transform: translateX(20%);
     }
 
     .clgLogo img{
         height: 40px;
-        margin-left: 80px;
+        margin-left: 70px;
     }
 
     .headerImg img{
